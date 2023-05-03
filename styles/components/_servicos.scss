@@ -1,0 +1,41 @@
+@import '../abstract/variaveis';
+
+#servicos{
+    padding: 4em;
+    text-align: center;
+    max-width: 100vw;
+    
+    h4{
+        font-size: $tamanho-do-texto/1.8;
+        color: $cor-secundaria;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    h3{
+        font-size: $tamanho-do-texto/1.2;
+    }
+
+   .cards{
+    display: flex;
+    max-width: 100vw;
+    padding-top: 2em;
+    .card{
+        flex: 1;
+        padding: 1em;
+        .img-container img{
+            width: 100%;
+            }
+        h5{
+            font-size: $tamanho-do-texto/1.6;
+            font-weight: 300px;
+            padding: 1em;
+            color: $cor-primaria;
+            white-space: nowrap;
+        }
+        }
+        @media screen and (max-width:900px) {
+            flex-direction: column;
+        }
+    }
+}
+  

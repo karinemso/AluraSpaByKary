@@ -1,0 +1,78 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #BE5A83;
+}
+nav ul li a:hover {
+  color: #E06469;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) center no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  color: white;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #E06469;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#servicos {
+  padding: 4em;
+  text-align: center;
+  max-width: 100vw;
+}
+#servicos h4 {
+  font-size: 1.6666666667rem;
+  color: #E06469;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+#servicos h3 {
+  font-size: 2.5rem;
+}
+#servicos .cards {
+  display: flex;
+  max-width: 100vw;
+  padding-top: 2em;
+}
+#servicos .cards .card {
+  flex: 1;
+  padding: 1em;
+}
+#servicos .cards .card .img-container img {
+  width: 100%;
+}
+#servicos .cards .card h5 {
+  font-size: 1.875rem;
+  font-weight: 300px;
+  padding: 1em;
+  color: #BE5A83;
+  white-space: nowrap;
+}
+@media screen and (max-width: 900px) {
+  #servicos .cards {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
