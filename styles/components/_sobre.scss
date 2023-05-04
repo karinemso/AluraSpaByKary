@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+.sobre {
+    
+    padding: 2em;
+    text-align: center;
+    .pedra-flor{
+        max-width: 100%;
+        img{
+            object-fit: contain;
+            width: 50%;
+
+        }
+    }
+    .texto{
+        line-height: 1.5rem;
+       font-weight: 500;
+    }
+}

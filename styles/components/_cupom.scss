@@ -1,0 +1,56 @@
+@import "../abstract/variaveis";
+
+#cupom {
+  background-color: $cor-terciaria;
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  .texto {
+    color: $cor-secundaria;
+    h2 {
+      font-size: $tamanho-do-texto/2.2;
+      font-weight: bold;
+    }
+  }
+  .inscrição {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      width: 40%;
+      align-items: center;
+      .input input {
+        padding: 0.4em;
+        width: 50vw;
+        font-size: 20px;
+        border-radius: 15px;
+        border-color: $cor-primaria;
+        background-color: rgba(250, 235, 215, 0.534);
+        outline: none;
+        &:hover, &:focus-within{
+            box-shadow: 1px 1px 8px 1px $cor-primaria;
+            outline: none;
+        }
+      }
+      button{
+        padding: .5em;
+        width: 10em;
+        background-color: $cor-primaria;
+        color: white;
+        text-transform: capitalize;
+        border: none;
+        font-size: $tamanho-do-texto/2.5;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+            background-color: $cor-secundaria;
+        }
+      }
+    }
+  }
+}

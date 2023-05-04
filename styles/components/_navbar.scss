@@ -1,6 +1,7 @@
 @import '../abstract/variaveis';
 
 nav{
+    border-bottom: 4px solid $cor-terciaria;
     text-align: center;
     ul{
         li{

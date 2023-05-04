@@ -6,3 +6,9 @@ $cor-primaria:#BE5A83;
 $cor-secundaria:#E06469;
 $cor-terciaria:#DEDEA7;
 $tamanho-do-texto:3rem;
+$cor-primaria:#C9A7EB;
+$cor-secundaria:#9384D1;
+$cor-terciaria:#DAF5FF;
+@media screen and (max-width:700px) {
+    $tamanho-do-texto:2rem;
+}

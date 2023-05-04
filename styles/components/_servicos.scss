@@ -1,7 +1,7 @@
 @import '../abstract/variaveis';
 
 #servicos{
-    padding: 4em;
+    padding: 4em 1em;
     text-align: center;
     max-width: 100vw;
     
@@ -12,25 +12,33 @@
         text-transform: uppercase;
     }
     h3{
-        font-size: $tamanho-do-texto/1.2;
+        font-size: $tamanho-do-texto/1.5;
     }
 
    .cards{
     display: flex;
     max-width: 100vw;
-    padding-top: 2em;
+    padding: 2em 0em;
+    border-radius: 20px;
+    gap: 2em;
     .card{
+        background-color: $cor-terciaria;
         flex: 1;
         padding: 1em;
+        border-radius: 10px;
         .img-container img{
             width: 100%;
             }
         h5{
             font-size: $tamanho-do-texto/1.6;
             font-weight: 300px;
-            padding: 1em;
-            color: $cor-primaria;
+            padding: 1em 0px;
+            color: $cor-secundaria;
             white-space: nowrap;
+        }
+        p {
+            line-height: 1.25rem;
+            margin-bottom: 2em;
         }
         }
         @media screen and (max-width:900px) {

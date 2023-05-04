@@ -1,7 +1,7 @@
 @import '../abstract/variaveis';
 
 .banner {
-    background: url(../imagens/banner.jpeg) center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.289), black),url(../imagens/banner.jpeg) center no-repeat ;
     background-size: cover;
     min-height:50vh;
     display: flex;
@@ -9,13 +9,14 @@
     align-items: center;
     opacity: 0.9;
     .inner-banner{
-        padding: 3rem;
         color: white;
         h1{
             font-size: $tamanho-do-texto;
-            color: $cor-secundaria;
-            text-shadow: 0 0 5px rgb(0, 0, 0);
-
+            color: $cor-terciaria;
+            text-shadow: 0 0 5px rgb(117, 84, 127);
+            span {
+                color: $cor-secundaria;
+            }
         }
     }
 
